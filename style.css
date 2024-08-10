@@ -13,9 +13,24 @@ body{
     flex-direction: column;
 }
 
-a {
-    text-decoration: none;
-    color: var(--primary-brown);
+
+
+
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-brown);
+    color: var(--secondary-brown);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .sticky-button.sticky {
+    bottom: 20px;
+    right: 20px;
   }
 
 nav {
@@ -24,6 +39,10 @@ nav {
     display: flex;
     justify-content: space-around;
     font-size: 1.2em;
+  }
+  a.nav-bar {
+    text-decoration: none;
+    color: var(--primary-brown);
   }
 
   nav ul {

@@ -13,18 +13,30 @@
 
 </head>
 <body>
+    <script>
+        window.onscroll = function() {
+          const button = document.querySelector(".sticky-button");
+          if (window.pageYOffset >= 200) {
+            button.classList.add("sticky");
+          } else {
+            button.classList.remove("sticky");
+          }
+        };
+      </script>
+
 <header>
 <!--splash page-->
-<img  class="img-logo" src="img/logo_box.png">
+
+<img  class="img-logo" src="img/logo_box.png" id="home">
 </header>
 
-<nav>
+<nav id="menu" class="nav-bar">
     <ul>
-      <li><a href="#how">Chi Siamo</a></li>
-      <li><a href="#what">Cosa Facciamo</a></li>
-      <li><a href="#work">Lavora con Noi</a></li>
-      <li><a href="#advice">Resta aggiornato</a></li>
-      <li><a href="#statuto">Statuto</a></li>
+      <li><a class="nav-bar" href="#how">Chi Siamo</a></li>
+      <li><a class="nav-bar" href="#what">Cosa Facciamo</a></li>
+      <li><a class="nav-bar" href="#work">Lavora con Noi</a></li>
+      <li><a class="nav-bar" href="#advice">Resta aggiornato</a></li>
+      <li><a class="nav-bar" href="#statuto">Statuto</a></li>
     </ul>
   </nav>
 <main>
@@ -129,7 +141,7 @@
         <span>C.Fiscale: 000000000</span></p>
     </div>
 </footer>
-
+<a href="#home"><button class="sticky-button">Torna su</button>
 
 </body>
 </html>
