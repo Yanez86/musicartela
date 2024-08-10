@@ -4,6 +4,9 @@
     --primary-red: rgb(168, 43, 60);
 }
 
+a{
+    text-decoration: none;
+}
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background: var(--secondary-brown);
@@ -12,6 +15,15 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+a, .footer-box{
+    text-decoration: none;
+    color: var(--secondary-brown);
+}
+a:hover, .footer-box{
+    text-decoration: none;
+    color: var(--primary-red);
 }
 
 
