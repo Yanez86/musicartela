@@ -68,7 +68,6 @@ header{
 }
 
 strong{
-    color: var(--primary-brown);
     font-size: 1.1em;
 }
 
@@ -91,7 +90,7 @@ strong{
 }
 .box-inside{
     display: flex;
-    color: black;
+    color: var(--primary-brown);
 
 }
     @media (max-width: 800px) {
