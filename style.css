@@ -61,21 +61,6 @@ nav ul {
     padding: 0;
 }
 
-@media (max-width: 800px) {
-    ul {
-        flex-direction: column;
-    }
-
-    li {
-        margin-bottom: 20px;
-    }
-    .vertical-line{
-        border-style:double;
-        border-color: var(--secondary-brown);
-        border-width: 1px 0 0 0;
-        margin-bottom: 20px;
-    }
-}
 
 header {
     background-color: var(--primary-brown);
@@ -179,6 +164,22 @@ strong {
         display: flex;
         flex-direction: column;
     }
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        padding: 10px 0 10px 0;
+    }
+    .vertical-line{
+        border-style:double;
+        border-color: var(--secondary-brown);
+        border-width: 1px 0 0 0;
+        margin-bottom: 20px;
+    }
+    footer {
+        flex-direction: column;
+    }
 }
 
 .text-box {
@@ -204,11 +205,6 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 800px) {
-    footer {
-        flex-direction: column;
-    }
-}
 
 .footer-box {
     color: var(--secondary-brown);
