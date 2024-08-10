@@ -1,10 +1,10 @@
 :root {
-    --primary-brown: rgb(93,85,81);
-    --secondary-brown: rgb(226,215,188);
-    --primary-red: rgb(168,43,60);
-  }
+    --primary-brown: rgb(93, 85, 81);
+    --secondary-brown: rgb(226, 215, 188);
+    --primary-red: rgb(168, 43, 60);
+}
 
-body{
+body {
     font-family: 'Roboto Condensed', sans-serif;
     background: var(--secondary-brown);
     padding: 0;
@@ -13,8 +13,6 @@ body{
     flex-direction: column;
 
 }
-
-
 
 
 .sticky-button {
@@ -28,42 +26,43 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
     font-size: 1em;
-  }
+}
 
-  .sticky-button.sticky {
+.sticky-button.sticky {
     bottom: 20px;
     right: 20px;
-  }
+}
 
 nav {
     width: 100%;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
     font-size: 1.2em;
-  }
-  a.nav-bar {
+    margin: 0;
+    padding: 0;
+}
+
+a.nav-bar {
     text-decoration: none;
     color: var(--primary-brown);
-  }
+}
 
-  nav ul {
+nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
+    justify-content: space-around;
+}
 
-  @media (max-width: 800px) {
-    ul{
-      flex-direction: column;
-
+@media (max-width: 800px) {
+    ul {
+        flex-direction: column;
     }
-    li{
-        padding: 20px;
+
+    li {
+        margin-bottom: 20px;
     }
 }
-header{
+
+header {
     background-color: var(--primary-brown);
     width: 100%;
     color: var(--secondary-brown);
@@ -73,51 +72,57 @@ header{
 
 }
 
-.img-logo{
+.img-logo {
     width: 50%;
 
 }
-.box{
+
+.box {
     background-color: white;
     color: var(--primary-brown);
     margin: 0 0 30px 0;
     padding: 30px;
     font-size: 1.2em;
     letter-spacing: 0.1em;
- 
+
 
 }
-.how-div{
-    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("img/bg-how.jpg");
+
+.how-div {
+    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("img/bg-how.jpg");
 }
 
-strong{
+strong {
     font-size: 1.1em;
 }
 
-.text-left{
+.text-left {
     text-align: left;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
     text-justify: inter-word;
 }
 
-.text-small-size{
+.text-small-size {
     font-size: 0.8em;
 }
 
-.text-default-size{
+.text-default-size {
     font-size: 1.2em;
 }
-.img-corsi{
+.img-center{
+    text-align:center;
+
+}
+.img-corsi {
     width: 300px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
     align-self: center;
-  
+
 }
 
 .img-author {
@@ -127,43 +132,49 @@ strong{
 
     object-fit: cover;
     align-self: center;
-  }
-
-.flex-col{
-    flex-direction: column;
 }
 
-.flex-row{
+.flex-col {
+    flex-direction: column;
+    width:100%;
+}
+
+.flex-row {
     display: flex;
     justify-content: space-around;
 }
 
-@media (max-width: 800px) {
-    .flex-row{
-      flex-direction: column;
-    }
-}
-.box-inside{
+
+.box-inside {
     display: flex;
     color: var(--primary-brown);
 
 }
-    @media (max-width: 800px) {
-        .box-inside{
-          flex-direction: column;
-        }
-    }
 
-.text-box{
+@media (max-width: 800px) {
+    .box-inside {
+        flex-direction: column;
+    }
+    .flex-col{
+        width: 100%;
+    }
+    .flex-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.text-box {
     flex-direction: column;
 
 }
 
-.text-box, img{
+.text-box,
+img {
     margin: 30px;
 }
 
-footer{
+footer {
     background-color: var(--primary-brown);
     text-align: center;
     padding-top: 20px;
@@ -172,26 +183,26 @@ footer{
     color: white;
     width: 100%;
     text-align: center;
-    display: flex;
-    justify-content: space-around;
     font-size: 1.2em;
+    width: 100%;
 }
 
 @media (max-width: 800px) {
-    footer{
-      flex-direction: column;
+    footer {
+        flex-direction: column;
     }
 }
-.footer-box{
- color:var(--secondary-brown);
+
+.footer-box {
+    color: var(--secondary-brown);
 }
 
-.flat-img{
+.flat-img {
     height: 30px;
     width: 30px;
 }
 
-.cibo{
+.cibo {
     filter: invert(1);
     width: 45px;
 }
@@ -200,4 +211,4 @@ hr.author {
     border-top: 1px solid var(--primary-brown);
     width: 40%;
     margin-bottom: 60px;
-  }
+}
