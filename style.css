@@ -1,5 +1,5 @@
 :root {
-    --primary-brown: rgb(93, 85, 81);
+    --primary-brown: rgb(108, 98, 94);
     --secondary-brown: rgb(226, 215, 188);
     --primary-red: rgb(168, 43, 60);
 }
@@ -41,6 +41,11 @@ nav {
     padding: 0;
 }
 
+.vertical-line{
+    border-style:double;
+    border-color: var(--secondary-brown);
+    border-width: 0 1px 0 0;
+}
 a.nav-bar {
     text-decoration: none;
     color: var(--primary-brown);
@@ -53,6 +58,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding: 0;
 }
 
 @media (max-width: 800px) {
@@ -70,8 +76,6 @@ header {
     width: 100%;
     color: var(--secondary-brown);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
 
 }
 
@@ -101,6 +105,10 @@ strong {
 
 .text-left {
     text-align: left;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .text-justify {
