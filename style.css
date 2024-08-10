@@ -88,6 +88,12 @@ strong{
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 800px) {
+    .flex-row{
+      flex-direction: column;
+    }
+}
 .box-inside{
     display: flex;
     color: var(--primary-brown);
