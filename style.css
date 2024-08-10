@@ -74,7 +74,11 @@ strong{
 
 .img-corsi{
     width: 300px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 10px;
+    align-self: center;
+  
 }
 
 .flex-col{
