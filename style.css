@@ -94,6 +94,18 @@ strong{
     font-size: 1.1em;
 }
 
+.text-left{
+    text-align: left;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-small-size{
+    font-size: 0.8em;
+}
 .img-corsi{
     width: 300px;
     height: 200px;
@@ -102,6 +114,15 @@ strong{
     align-self: center;
   
 }
+
+.img-author {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    align-self: center;
+  }
 
 .flex-col{
     flex-direction: column;
@@ -130,8 +151,6 @@ strong{
 
 .text-box{
     flex-direction: column;
-    text-align: justify;
-    text-justify: inter-word;
 
 }
 
