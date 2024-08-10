@@ -69,6 +69,12 @@ nav ul {
     li {
         margin-bottom: 20px;
     }
+    .vertical-line{
+        border-style:double;
+        border-color: var(--secondary-brown);
+        border-width: 1px 0 0 0;
+        margin-bottom: 20px;
+    }
 }
 
 header {
