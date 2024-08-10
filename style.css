@@ -26,6 +26,7 @@ body{
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s ease;
+    font-size: 1em;
   }
 
   .sticky-button.sticky {
@@ -84,6 +85,9 @@ header{
     letter-spacing: 0.1em;
  
 
+}
+.how-div{
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("img/bg-how.jpg");
 }
 
 strong{
@@ -156,10 +160,14 @@ footer{
 }
 .footer-box{
  color:var(--secondary-brown);
- padding: 30px;
 }
 
 .flat-img{
     height: 30px;
     width: 30px;
+}
+
+.cibo{
+    filter: invert(1);
+    width: 45px;
 }
