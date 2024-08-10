@@ -67,6 +67,24 @@ header{
 
 }
 
+strong{
+    color: var(--primary-brown);
+    font-size: 1.1em;
+}
+
+.img-corsi{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+}
 .box-inside{
     display: flex;
     color: black;
@@ -92,10 +110,23 @@ header{
 footer{
     background-color: var(--primary-brown);
     text-align: center;
-    width:100%;
-    height: 100px;
     padding-top: 20px;
     margin: 0 0 0 0;
     margin-top: auto;
     color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.footer-box{
+ color:var(--secondary-brown);
+ padding: 30px;
+}
+
+.flat-img{
+    height: 30px;
+    width: 30px;
 }
