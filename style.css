@@ -45,6 +45,9 @@ a.nav-bar {
     text-decoration: none;
     color: var(--primary-brown);
 }
+a:hover.nav-bar {
+    color: var(--primary-red);
+}
 
 nav ul {
     list-style: none;
