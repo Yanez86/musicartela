@@ -115,15 +115,14 @@ header {
     padding: 30px;
     font-size: 1.2em;
     letter-spacing: 0.1em;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-
-
 }
 
 .how-div {
     background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("img/bg-how.jpg");
+}
+
+.sp-bot-10px {
+    margin-bottom:10px;
 }
 
 strong {

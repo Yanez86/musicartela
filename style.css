@@ -112,7 +112,7 @@ header {
     background-color: white;
     color: var(--primary-brown);
     margin: 0 0 30px 0;
-    padding: 30px;
+    padding: 20px 50px 20px 20px;
     font-size: 1.2em;
     letter-spacing: 0.1em;
 
@@ -121,6 +121,10 @@ header {
 
 .how-div {
     background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("img/bg-how.jpg");
+}
+
+.sp-bot-10px {
+    margin-bottom:10px;
 }
 
 strong {
