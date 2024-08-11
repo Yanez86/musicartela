@@ -1,7 +1,7 @@
 :root {
-    --primary-brown: rgb(108, 98, 94);
-    --secondary-brown: rgb(226, 215, 188);
-    --primary-red: rgb(168, 43, 60);
+    --primary-brown: black;
+    --secondary-brown: rgb(108,98,94);
+    --primary-red: orange;
 }
 
 a{
@@ -21,10 +21,10 @@ strong{
     font-weight: 400;
 }
 
-
 .text-highlight{
     color: var(--primary-red);
 }
+
 a, .footer-box{
     text-decoration: none;
     color: var(--secondary-brown);
@@ -32,7 +32,6 @@ a, .footer-box{
 a:hover .footer-box{
     text-decoration: none;
     color: var(--primary-red);
-    font-weight: 500;
 }
 
 
@@ -98,7 +97,7 @@ header {
 }
 
 .header-logo {
-    background: url("img/logo_box.png") ;
+    background: url("img/logo_box_bw.png") ;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -274,3 +273,4 @@ hr.author {
     width: 40%;
     margin-bottom: 60px;
 }
+
