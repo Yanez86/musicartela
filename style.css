@@ -164,6 +164,9 @@ strong {
 
 }
 
+.font-col-sec{
+    color:var(--secondary-brown);
+}
 .img-author {
     border-radius: 50%;
     width: 200px;
