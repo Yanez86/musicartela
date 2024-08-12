@@ -1,4 +1,3 @@
 # musicartelab
 
-versione 0.1 - some responsive tips, not too much
-tested only in safari
+sito dell'associazione Musicale - MusicarteLab di Merate(CO)
