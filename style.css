@@ -92,8 +92,8 @@ header {
 }
 
 .img-logo {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 
 }
 
@@ -103,7 +103,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     height:500px;
-        margin:0;
+        margin:30px;
         padding: 0;
     
 }
