@@ -1,0 +1,298 @@
+<html>
+
+<head>
+    <title>MusicarteLab</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+        
+    <script src="https://kit.fontawesome.com/79c285c588.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <script>
+        window.onscroll = function () {
+            const button = document.querySelector(".sticky-button");
+            if (window.pageYOffset >= 200) {
+                button.classList.add("sticky");
+            } else {
+                button.classList.remove("sticky");
+            }
+        };
+    </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
+<!-- menubar-->
+
+    <nav id="home" class="nav-bar">
+        <ul>
+            <li><a class="nav-bar" href="#how">Chi Siamo</a></li>
+            <li><a class="nav-bar" href="#what">I Nostri Corsi</a></li>
+            <li><a class="nav-bar" href="#work">Lavora con Noi</a></li>
+            <li><a class="nav-bar" href="#advice">Resta aggiornato</a></li>
+            <li><a class="nav-bar" href="#statuto">Statuto</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </nav>
+
+
+    <header>
+        <!--splash page-->
+
+        <div id="logo" class="header-logo"></div>
+    </header>
+    <main>
+        <section id="how" class="box"> <!-- add how-div class for more background -->
+            <h1>Chi siamo?</h1>
+            <section class="flex-col">
+                <div class="text-box text-default-size text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis. Fusce
+                        vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu facilisis,
+                        dictum est eget, faucibus est. Etiam mattis eros lacus, non facilisis nulla egestas quis.
+                        Curabitur bibendum venenatis arcu vel tristique. Aliquam nec porta tortor. In tincidunt eros
+                        est, vel gravida massa accumsan sit amet. Cras ut nisi id ex tincidunt tempus. Aliquam convallis
+                        erat ut suscipit tincidunt. Quisque et pulvinar elit. Aliquam eget congue dolor.</p>
+                </div>
+                <div class="img-center"><img width="200px" src="img/luisona.png"></div>
+
+                <div class="text-box text-default-size text-justify">
+                    <p>Nullam auctor, magna ac faucibus imperdiet, diam risus faucibus nisi, vel molestie quam diam eu
+                        sem. In hac habitasse platea dictumst. Quisque eget felis sapien.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In
+                        egestas odio dui, eu iaculis diam commodo quis. Aliquam sagittis commodo leo,
+                        quis pulvinar est pretium eget. Cras id sagittis lorem. Praesent at ipsum tincidunt, placerat
+                        lectus
+                        et, pellentesque sapien.</p>
+                </div>
+                </div>
+            </section>
+        </section>
+        <section id="what" class="box">
+            <h1>I Nostri Corsi</h1>
+            <div class="flex-row">
+                <section class="box-inside box-lesson flex-col">
+                    <span class="text-center sp-bot-10px"><strong>Chitarra</strong></span>
+                    <img class="img-corsi" src="img/corso-chitarra.jpg">
+                    <div class="text-box text-justify">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            Fusce vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu
+                            facilisis,
+                            dictum est eget, faucibus est.</p>
+                    </div>
+                </section>
+                <div class="vertical-line"></div>
+                <section class="box-inside box-lesson flex-col">
+                    <span class="text-center sp-bot-10px"><strong>Canto</strong></span>
+                    <img class="img-corsi" src="img/corso-canto.jpg">
+                    <div class="text-box text-justify">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            Fusce vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu
+                            facilisis,
+                            dictum est eget, faucibus est.</p>
+                    </div>
+                </section>
+                <div class="vertical-line"></div>
+                <section class="box-inside box-lesson flex-col">
+                    <span class="text-center sp-bot-10px"><strong>Teatro</strong></span>
+                    <img class="img-corsi" src="img/corso-teatro.jpg">
+                    <div class="text-box text-justify">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            Fusce vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu
+                            facilisis,
+                            dictum est eget, faucibus est. </p>
+                    </div>
+                </section>
+                <div class="vertical-line"></div>
+                <section class="box-inside box-lesson flex-col">
+                    <span class="text-center sp-bot-10px"><strong>Batteria</strong></span>
+                    <img class="img-corsi" src="img/corso-batteria.jpg">
+                    <div class="text-box text-justify">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            Fusce vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu
+                            facilisis,
+                            dictum est eget, faucibus est.</p>
+                    </div>
+                </section>
+                <div class="vertical-line"></div>
+        </section>
+        </section>
+
+        <section id="work" class="box">
+
+                <h1>Lavora con noi</h1>
+                <div class="text-box text-default-size text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis. Fusce
+                        vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu facilisis,
+                        dictum est eget, faucibus est. Etiam mattis eros lacus, non facilisis nulla egestas quis.
+                        Curabitur bibendum venenatis arcu vel tristique. Aliquam nec porta tortor. In tincidunt eros
+                        est.</p>
+                </div>
+                <hr class="author">
+                <div class="flex-row">
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"><strong>Ranma Saotome</strong></div>
+                        <img class="img-author" src="img/pg_1.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"><strong>Akane Tendo</strong></div>
+                        <img class="img-author" src="img/pg_2.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"><strong>Tatewaki Kuno</strong></div>
+                        <img class="img-author" src="img/pg_3.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"><strong>Pi-Chan</strong></div>
+                        <img class="img-author" src="img/pg_4.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"> <strong>Shan-Pu</strong></div>
+                        <img class="img-author" src="img/pg_5.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"> <strong>Genma Saotome</strong></div>
+                        <img class="img-author" src="img/pg_6.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"> <strong>Happosai</strong></div>
+                        <img class="img-author" src="img/pg_7.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="vertical-line"></div>
+                    <section class="box-inside box-teacher flex-col">
+                        <div class="text-center"> <strong>Ukyo Kuonji</strong></div>
+                        <img class="img-author" src="img/pg_8.png">
+                        <div class="text-box text-left text-small-size">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis.
+                            </p>
+                        </div>
+              
+                    </section>
+                    <div class="vertical-line"></div>
+            </section>
+        </section>
+        </section>
+
+        <section id="advice" class="box">
+            <h1>Resta aggiornato</h1>
+                          
+                <div class="text-box text-default-size text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis. Fusce
+                        vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu facilisis,
+                        dictum est eget, faucibus est. Etiam mattis eros lacus, non facilisis nulla egestas quis.
+                        Curabitur bibendum venenatis arcu vel tristique. Aliquam nec porta tortor. In tincidunt eros
+                        est, vel gravida massa accumsan sit amet. Cras ut nisi id ex tincidunt tempus. Aliquam convallis
+                        erat ut suscipit tincidunt. Quisque et pulvinar elit. Aliquam eget congue dolor.</p>
+
+                    </p>Nullam auctor, magna ac faucibus imperdiet, diam risus faucibus nisi, vel molestie quam diam eu
+                    sem. In hac habitasse platea dictumst. Quisque eget felis sapien.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In
+                    egestas odio dui, eu iaculis diam commodo quis. Aliquam sagittis commodo leo,
+                    quis pulvinar est pretium eget. Cras id sagittis lorem. Praesent at ipsum tincidunt, placerat lectus
+                    et, pellentesque sapien.</p>
+                </div>
+
+        </section>
+
+        <section id="statuto" class="box">
+            <h1>Statuto</h1>
+
+                <div class="text-box text-default-size text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor tempor venenatis. Fusce
+                        vulputate elementum magna id luctus. Aenean non lacinia nunc. Aenean ut arcu facilisis,
+                        dictum est eget, faucibus est. Etiam mattis eros lacus, non facilisis nulla egestas quis.
+                        Curabitur bibendum venenatis arcu vel tristique. Aliquam nec porta tortor. In tincidunt eros
+                        est, vel gravida massa accumsan sit amet. Cras ut nisi id ex tincidunt tempus. Aliquam convallis
+                        erat ut suscipit tincidunt. Quisque et pulvinar elit. Aliquam eget congue dolor.</p>
+
+                    </p>Nullam auctor, magna ac faucibus imperdiet, diam risus faucibus nisi, vel molestie quam diam eu
+                    sem. In hac habitasse platea dictumst. Quisque eget felis sapien.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In
+                    egestas odio dui, eu iaculis diam commodo quis. Aliquam sagittis commodo leo,
+                    quis pulvinar est pretium eget. Cras id sagittis lorem. Praesent at ipsum tincidunt, placerat lectus
+                    et, pellentesque sapien.</p>
+                </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="flex-row">
+            <div class="footer-box">
+                <p><strong class="text-highlight font-col-sec">I nostri social</strong></p>
+                <a href="" target="_blank"><img class="flat-img" src="img/instagram-flat.png" alt="instagram"></a>
+                <a href="" target="_blank"><img class="flat-img" src="img/facebook-flat.png" alt="facebook"></a>
+            </div>
+            <div class="footer-box">
+                <p><strong class="text-highlight font-col-sec">Sede e info</strong></p>
+                <span>Via del Paparucchio, 32 Merate (CO)</span><br>
+                <span><strong>Email:</strong> <a href="">musicartelab@salutami.it</a></span><br>
+                <span><strong>Tel:</strong> +39 333 000 11 222</span></p>
+            </div>
+            <div class="footer-box">
+                <p><strong class="text-highlight font-col-sec">Altra roba noiosa</strong></p>
+                <span>Statuto</span><br>
+                <span>Ordinamento</span><br>
+                <span>C.Fiscale: 000000000</span></p>
+            </div>
+        </div>
+        </div>
+        <div><img class="cibo" src="img/cibo.png"></div>
+    </footer>
+    <a href="#home"><button class="sticky-button">Torna su</button>
+
+</body>
+
+</html>
