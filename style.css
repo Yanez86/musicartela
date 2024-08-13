@@ -257,6 +257,8 @@ strong {
     footer {
         flex-direction: column;
     }
+    nav {
+        height: 250px;
 }
 
 .text-box {
