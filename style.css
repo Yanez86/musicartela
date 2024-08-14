@@ -178,6 +178,9 @@ strong {
 
 .box-lesson{
     max-width: 300px;
+        border-style:double;
+    border-color: var(--secondary-brown);
+    border-width: 0 1px 0 0;
 }
 
 .box-teacher{
