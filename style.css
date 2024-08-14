@@ -280,6 +280,9 @@ hr.author {
     display: none;
   }
   
+  .justify-center{
+    justify-content: center;
+  }
   /* Style navigation menu links */
   .topnav a {
     color: white;
