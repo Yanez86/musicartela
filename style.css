@@ -259,8 +259,7 @@ footer {
 }
 
 .cibo {
-    filter: invert(1);
-    width: 45px;
+    width: 100px;
 }
 
 hr.author {
